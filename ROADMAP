@@ -1,0 +1,3 @@
+Timebase: At the moment, its just possible to run on a repeatly time base of xx minutes. Next step would be to use a definition like in crontab
+
+Script Type: At the moment, its just possible to run bash scripts. Next step would be to use all kind of script. I need to separate the autostart copy and removing script from the main script file. And add this new scipt automaticaly to visudo. Or how can i run this lines as sudo without adding the script to the visudo?

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Script Scheduler
+Exec=/opt/script_scheduler/script_scheduler.pyt
+Icon=/opt/script_scheduler/icons/apps/24/script-scheduler-idle.svg
+Comment=Starts a script on a timely base
+X-GNOME-Autostart-enabled=true

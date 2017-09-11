@@ -1,0 +1,42 @@
+Error: Problem doing sync for marcokuoni/ROOT@zrep_000043. renamed to marcokuoni/ROOT@zrep_000043_unsent
+
+Backup finished at Mon Sep 11 17:07:14 CEST 2017
+
+
+-------------------------------------------------
+
+/usr/local/sbin/zrep[1267]: eval: line 1: 6767: Abort(coredump)
+
+*************************************************
+Stopped Script Scheduler at 11.09.17 17:13
+*************************************************
+
+*************************************************
+-------------------------------------------------
+create_backup has started at Mon Sep 11 19:33:18 CEST 2017
+-------------------------------------------------
+
+*************************************************
+Started Script Scheduler at 11.09.17 19:33
+*************************************************
+
+PING 193.168.200.200 (193.168.200.200) 56(84) bytes of data.
+64 bytes from 193.168.200.200: icmp_seq=1 ttl=254 time=7.30 ms
+
+--- 193.168.200.200 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 7.308/7.308/7.308/0.000 ms
+
+Start backup
+
+
+Backup finished at Mon Sep 11 19:33:18 CEST 2017
+
+
+-------------------------------------------------
+
+
+*************************************************
+Stopped Script Scheduler at 11.09.17 19:36
+*************************************************
+
