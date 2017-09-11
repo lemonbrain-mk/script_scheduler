@@ -4,9 +4,7 @@ Create a script wich will be running on a timley base. In default it will be a z
 Just follow this instructions or run the script_scheduler.pyt script in a terminal and try on yourself ;)
 Please also read the small LICENSE and have fun with the Script Scheduler
 
-![Script Scheduler](http://url/to/img.png)
-
-![Script Scheduler Menu](http://url/to/img.png)
+![Script Scheduler](https://lemonbrain.ch/application/files/6215/0515/2249/ScriptScheduler.png)
 
 ## Getting Started
 
