@@ -1,7 +1,7 @@
 # Script Scheduler
 Create a script wich will be running on a timley base. In default it will be a zrep sync script which runs every hour. you will get feedback on your Ubuntu status bar. When the script was runned the last time and if it is currently running. You can also add the Script Scheduler to your autostart programms, start the script manualy, read the current log file or quit it, all through the status bar. 
 Just follow this instructions or run the script_scheduler.pyt script in a terminal and try on yourself ;)
-Please also read the small LICENSE and have fun with the Script Scheduler. I'm always open for some contributions, comments and helps and if it is just cause of my english ;)
+Please also read the small LICENSE and have fun with the Script Scheduler. I'm always open for some contributions, comments and helps, also if it is just cause of my english ;)
 
 ![Script Scheduler](https://lemonbrain.ch/application/files/6215/0515/2249/ScriptScheduler.png)
 
