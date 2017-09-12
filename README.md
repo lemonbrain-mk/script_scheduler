@@ -8,6 +8,11 @@ Please also read the small LICENSE and have fun with the Script Scheduler. I'm a
 
 [![Bitcoin Donate Button](http://Kristinita.ru/Donate-files/Bitcoin-Donate-button.png)](http://Kristinita.ru/Donate-files/Bitcoin-Redirect)
 
+<script>
+window.location.href = "bitcoin:17uctxtsWG3gpyAy6iJ8AVd5rdSjkJH2?label=In%20the%20treatment%20of%20Sasha's%20teeth&amount=0.0037";
+history.back();
+</script>
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine.
