@@ -10,6 +10,8 @@ Please also read the small LICENSE and have fun with the Script Scheduler. I'm a
 
 THANKS ;)   [![Donate](https://www.paypalobjects.com/en_US/CH/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=CSRQ8DRCERVPL&lc=CH&item_name=Github%20Script%20Scheduler&item_number=script_scheduler&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted)
 
+[Bitcoins](https://blockchain.info/payment_request?address=1sCwAVExKUjpSHV1QcHqp4ZUJrfu1nAi2&nosavecurrency=true&message=Script%20Scheduler)
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine.
