@@ -6,7 +6,7 @@ Please also read the small LICENSE and have fun with the Script Scheduler. I'm a
 
 ![Script Scheduler](https://lemonbrain.ch/application/files/6215/0515/2249/ScriptScheduler.png)
 
-[![Bitcoin Donate Button](http://Kristinita.ru/Donate-files/Bitcoin-Donate-button.png)](http://Kristinita.ru/Donate-files/Bitcoin-Redirect
+[![Bitcoin Donate Button](http://Kristinita.ru/Donate-files/Bitcoin-Donate-button.png)](http://Kristinita.ru/Donate-files/Bitcoin-Redirect)
 
 ## Getting Started
 
