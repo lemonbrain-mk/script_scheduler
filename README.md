@@ -1,7 +1,7 @@
 # Script Scheduler
-Create a script wich will be running on a timley base. In default it will be a zrep sync script which runs every hour. you will get feedback on your Ubuntu status bar. When the script was runned the last time and if it is currently running. You can also add the Script Scheduler to your autostart programms, start the script manualy, read the current log file or quit it, all through the status bar. 
-Just follow this instructions or run the script_scheduler.pyt script in a terminal and try on yourself ;)
-Please also read the small LICENSE and have fun with the Script Scheduler. I'm always open for some contributions, comments and helps, also if it is just cause of my english ;)
+Create a script wich will be run on a timed interval. By default it will be a zrep sync script which runs every hour. You will get feedback on your Ubuntu status bar providing information like when the script was run the last time and if it is currently running. You can also add the Script Scheduler to your autostart programms, start the script manualy, read the current log file or quit it, all through the status bar. 
+Just follow these instructions or run the script_scheduler.pyt script in a terminal and try it yourself ;)
+Please also read the small LICENSE and have fun with the Script Scheduler. I'm always open for contributions, comments and help, and be it just to improve my english ;)
 
 ![Script Scheduler](https://lemonbrain.ch/application/files/6215/0515/2249/ScriptScheduler.png)
 
@@ -25,7 +25,7 @@ sudo apt-get install python3
 ### Installing
 #### Downloading
 
-Now download the project to your favorite folder, my one would be /opt
+Now download the project to your favorite folder, mine would be /opt
 ```
 cd /opt
 sudo git clone https://github.com/lemonbrain-mk/script_scheduler.git
@@ -66,17 +66,20 @@ echo "-------------------------------------------------"
 echo ""
 ```
 
-Now save and quit it, press esc, :wq and enter
+Now save the file and quit vi (press esc, :wq and enter)
 
-While we have to run this shell script as sudo we need to add it to the visudo file
+As we have to run this shell script as sudo we need to add it to the visudo file
 ```
 sudo chown root:root /opt/script_scheduler/backup.sh
 sudo chmod 700 /opt/script_scheduler/backup.sh
 sudo visudo
-Scroll down to %sudo   ALL=(ALL:ALL) ALL
-and add under it: username  ALL=(ALL) NOPASSWD: /opt/script_scheduler/backup.sh
-Now save and quit it, press esc, :wq and enter
 ```
+Scroll down to %sudo   ALL=(ALL:ALL) ALL
+and below it add:
+```
+username  ALL=(ALL) NOPASSWD: /opt/script_scheduler/backup.sh
+```
+Now save the file and quit vi (press esc, :wq and enter)
 
 #### Configure the Script Scheduler
 open the config file
@@ -105,14 +108,14 @@ app_name = script_scheduler						#App name
 last_sync_time_format = %d.%m.%y %H:%M					#Format of the last run date
 ```
 
-Now save and quit it, press esc, :wq and enter
+Now save the file and quit vi (press esc, :wq and enter)
 
 #### Run the Script Scheduler
 ```
 ./scipt_scheduler.pyt
 ```
 
-Now you can see a new icon in your status bar and your shell script will be running the first time. Click on the icon to manually run the script, to add Script Scheduler to your autostart programs, to see the log file or to just quit the Script Scheduler.
+Now you can see a new icon in your status bar and your shell script will be running for the first time. Click on the icon to manually run the script, to add Script Scheduler to your autostart programs, to see the log file or to just quit the Script Scheduler.
 
 ![Script Scheduler](https://lemonbrain.ch/application/files/6215/0515/2249/ScriptScheduler.png)
 
@@ -138,7 +141,7 @@ See also the list of [contributors](https://github.com/lemonbrain-mk/script_sche
 This project is licensed under a small License - see the [LICENSE](LICENSE) file for details
 
 ## Acknowledgments
-* I use this scheduler to run a [zrep sync](http://www.bolthole.com/solaris/zrep/) all hours from my [ZFS Ubuntu 16.04](https://github.com/zfsonlinux/zfs/wiki/Ubuntu-16.04-Root-on-ZFS) to my backup server (based on a [SmartOS](https://www.joyent.com/smartos)) as long as the computer is running and the server is reachable.
-* It is not possible to run your script two times parallel, it just will ignore your second call
-* It always try to shutdown savely and waits until your script is finish. As long as the OS does not force the shotdown
-* if you delete the *.conf or the *.desktop file, it will create a new one with just all default settings in it. If you edit the files, it will always read the settings from the files.
+* I use this scheduler to run a [zrep sync](http://www.bolthole.com/solaris/zrep/) every hour on my [ZFS Ubuntu 16.04](https://github.com/zfsonlinux/zfs/wiki/Ubuntu-16.04-Root-on-ZFS) to send zfs snapshots to my backup server (based on a [SmartOS](https://www.joyent.com/smartos)) as long as the computer is running and the server is reachable.
+* It is not possible to run a single script in parallel, it just will ignore your second call
+* The Script Scheduler always try to shutdown savely and waits until your script is finished. As long as the OS does not force the shutdown
+* if you delete the *.conf or the *.desktop file, Script Schedluer will create new ones with just the default settings in it. If you edit the files, it will always read the settings from these files.
