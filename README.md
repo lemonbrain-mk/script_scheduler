@@ -15,7 +15,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-You need to install python 3
+You need to install python 3. Sometimes you nee to install also other python3 libaries. And don't forgett to restart the computer afterwards before starting the app.
 
 ```
 sudo apt-get update
